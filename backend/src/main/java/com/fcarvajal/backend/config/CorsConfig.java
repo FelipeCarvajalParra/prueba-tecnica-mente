@@ -13,8 +13,11 @@ public class CorsConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:5173") // Vite
+                registry.addMapping("/**") 
+                        .allowedOrigins(
+                            "http://localhost:5173",                // Desarrollo local
+                            "https://prueba-mente.netlify.app"     // Frontend en Netlify
+                        )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
