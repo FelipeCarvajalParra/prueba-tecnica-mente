@@ -7,7 +7,7 @@ Aplicación completa para la gestión de productos, compuesta por un backend en 
 El proyecto está desplegado usando **servicios gratuitos**:
 
 * **Frontend:** [https://prueba-mente.netlify.app](https://prueba-mente.netlify.app)
-* **Backend:** [https://prueba-tecnica-mente.onrender.com](https://prueba-tecnica-mente.onrender.com) 
+* **Backend:** [https://prueba-tecnica-mente.onrender.com/productos](https://prueba-tecnica-mente.onrender.com/productos) 
 
 **Notas importantes sobre el despliegue:**
 
