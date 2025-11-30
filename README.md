@@ -1,10 +1,22 @@
-# Proyecto de Gestión de Productos
+# Prueba tecnica Mente - desarrollador Junior FullStack
 
 Aplicación completa para la gestión de productos, compuesta por un backend en Spring Boot y un frontend en React con Tailwind.
 
+## Despliegue
+
+El proyecto está desplegado usando **servicios gratuitos**:
+
+* **Frontend:** [Netlify](https://prueba-mente.netlify.app)
+* **Backend:** [Render](https://prueba-tecnica-mente.onrender.com)
+
+**Notas importantes sobre el despliegue:**
+
+* Las peticiones entre frontend y backend pueden tardar un poco, ya que ambos servicios gratuitos no tienen la misma velocidad de un servidor dedicado.
+* El frontend y el backend están en **diferentes dominios**, por lo que las solicitudes a la API se hacen a otro origen. Por eso se configuró CORS en el backend para permitir que el frontend pueda comunicarse con la API.
+
 ## Descripción general
 
-El proyecto permite crear, listar, actualizar y eliminar productos en memoria. Se implementan validaciones tanto en el frontend como en el backend para garantizar consistencia de datos y una buena experiencia de usuario.
+El proyecto permite crear, listar, actualizar y eliminar productos. Se implementan validaciones tanto en el frontend como en el backend para garantizar consistencia de datos y una buena experiencia de usuario.
 
 ### Funcionalidades
 
@@ -35,7 +47,7 @@ El proyecto permite crear, listar, actualizar y eliminar productos en memoria. S
 1. Clonar el repositorio y entrar a la carpeta `backend`.
 2. Abrir el proyecto en IntelliJ o Eclipse.
 3. Ejecutar la clase principal con Spring Boot.
-4. Probar los endpoints usando Postman o curl.
+4. Probar los endpoints usando Postman.
 
 ### Frontend
 
@@ -50,15 +62,12 @@ El proyecto permite crear, listar, actualizar y eliminar productos en memoria. S
    ```bash
    npm start
    ```
-4. Abrir [http://localhost:3000](http://localhost:3000) en el navegador.
+4. Abrir [http://localhost:5173/](http://localhost:5173/) en el navegador.
 
-## Notas importantes
-
-* Todos los datos se pierden al reiniciar la aplicación, ya que no se utiliza base de datos.
-* La interfaz y la API están completamente en español.
-* El proyecto está diseñado para ser sencillo, enfocado en demostrar las operaciones CRUD y la comunicación entre frontend y backend.
 
 ## Endpoints principales del backend
+
+> Nota: Los endpoints están en el backend desplegado en Render, por lo que no comparten dominio con el frontend.
 
 | Método | Endpoint        | Descripción                     |
 | ------ | --------------- | ------------------------------- |
