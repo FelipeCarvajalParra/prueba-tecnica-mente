@@ -11,7 +11,7 @@ El proyecto está desplegado usando **servicios gratuitos**:
 
 **Notas importantes sobre el despliegue:**
 
-* Las peticiones entre frontend y backend pueden tardar un poco, ya que ambos servicios gratuitos no tienen la misma velocidad de un servidor dedicado.
+* Las peticiones entre frontend y backend pueden tardar un poco, ya que ambos servicios gratuitos no tienen la misma velocidad de un servidor dedicado. (Tenga un poco de paciencia si la carga incial se queda en el estado "Cargando...")
 * El frontend y el backend están en **diferentes dominios**, por lo que las solicitudes a la API se hacen a otro origen. Por eso se configuró CORS en el backend para permitir que el frontend pueda comunicarse con la API.
 
 ## Descripción general
@@ -28,9 +28,9 @@ El proyecto permite crear, listar, actualizar y eliminar productos. Se implement
 
 ## Tecnologías utilizadas
 
-**Backend:** Spring Boot, Java
-**Frontend:** React, Tailwind CSS, JavaScript
-**Herramientas adicionales:** Postman para pruebas de API, npm para gestión de dependencias
+* **Backend:** Spring Boot, Java
+* **Frontend:** React, Tailwind CSS, JavaScript
+* **Herramientas adicionales:** Insomnia para pruebas de API, npm para gestión de dependencias
 
 ## Estructura del proyecto
 
